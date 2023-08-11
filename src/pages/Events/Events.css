@@ -1,0 +1,40 @@
+.event-card-container {
+  column-gap: 4rem;
+  justify-content: center;
+}
+
+.event-card {
+  width: 19rem;
+  height: 21rem;
+  border-radius: 0.6rem;
+}
+
+.event-card img {
+  width: 19rem;
+  height: 15rem;
+  border-radius: 0.6rem;
+}
+
+.event-type {
+  background-color: white;
+  font-size: 0.9rem;
+  padding: 0.3rem;
+  top: 0.5rem;
+  left: 0.5rem;
+  border-radius: 0.3rem;
+}
+/* select:invalid {
+  color: "grey";
+} */
+
+/* .event-type-select {
+  color: --var(--grey-color);
+} */
+
+/* .event-type-select option:disabled {
+  color: --var(--grey-color);
+}
+
+.event-type-select option:enabled {
+  color: --var(--black-color);
+} */
