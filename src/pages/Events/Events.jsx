@@ -16,9 +16,7 @@ const Events = () => {
             dispatch({ type: "SEARCH_BY_TYPE", payload: e.target.value })
           }
         >
-          <option disabled selected>
-            Search by Event type
-          </option>
+          <option>Search by Event type</option>
           <option value="Offline">Offline</option>
           <option value="Online">Online</option>
           <option value="both">Both</option>
